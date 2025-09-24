@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | mazo.exe</title>
+    <title>Unity WebGL Player | EvilBaldGuy</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -20,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">mazo.exe</div>
+        <div id="unity-build-title">EvilBaldGuy</div>
       </div>
     </div>
     <script>
@@ -59,12 +59,12 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/EvilBald.loader.js";
       var config = {
-        dataUrl: buildUrl + "/EvilBald.data.br",
-        frameworkUrl: buildUrl + "/EvilBald.framework.js.br",
-        codeUrl: buildUrl + "/EvilBald.wasm.br",
+        dataUrl: buildUrl + "/EvilBald.data",
+        frameworkUrl: buildUrl + "/EvilBald.framework.js",
+        codeUrl: buildUrl + "/EvilBald.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "QuizOver",
-        productName: "mazo.exe",
+        productName: "EvilBaldGuy",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -98,7 +98,7 @@
         canvas.style.height = "600px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/EvilBald.jpg.br') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/EvilBald.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
